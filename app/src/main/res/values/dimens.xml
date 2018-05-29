@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="et_search_inputField_width">140dp</dimen>
+
+    <dimen name="google_books_search_instructions_textSize">18sp</dimen>
+
+    <dimen name="ll_listitem_topBottom_padding">2dp</dimen>
+    <dimen name="ll_listitem_startEnd_padding">16dp</dimen>
+
+    <dimen name="tv_authors_textSize">11sp</dimen>
+    <dimen name="tv_title_textSize">14sp</dimen>
+    <dimen name="tv_date_marginStart">8dp</dimen>
+</resources>

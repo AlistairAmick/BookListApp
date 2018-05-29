@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BookListingApp</string>
+
+    <string name="google_books_search_instructions">Search Google Books for a Keyword</string>
+    <string name="no_results_found">No results found</string>
+    <string name="no_internet_connection">No Internet connection.</string>
+
+    <string name="btn_search_text">Search Google Books</string>
+</resources>

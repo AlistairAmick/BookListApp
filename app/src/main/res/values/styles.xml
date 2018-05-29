@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LlListItemStyle">
+        <item name="android:paddingTop">@dimen/ll_listitem_topBottom_padding</item>
+        <item name="android:paddingBottom">@dimen/ll_listitem_topBottom_padding</item>
+        <item name="android:paddingStart">@dimen/ll_listitem_startEnd_padding</item>
+        <item name="android:paddingEnd">@dimen/ll_listitem_startEnd_padding</item>
+        <item name="android:paddingLeft">@dimen/ll_listitem_startEnd_padding</item>
+        <item name="android:paddingRight">@dimen/ll_listitem_startEnd_padding</item>
+    </style>
+
+    <style name="TvSearchInstructionsStyle">
+        <item name="android:textSize">@dimen/google_books_search_instructions_textSize</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextViewBookTitleStyle">
+        <item name="android:textSize">@dimen/tv_title_textSize</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="TextViewBookAuthorsStyle">
+        <item name="android:textSize">@dimen/tv_authors_textSize</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>

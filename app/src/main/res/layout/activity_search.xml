@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/search_instructions"
+        style="@style/TvSearchInstructionsStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/search_inputField"
+        android:layout_centerHorizontal="true"
+        android:text="@string/google_books_search_instructions" />
+
+    <EditText
+        android:id="@+id/search_inputField"
+        android:layout_width="@dimen/et_search_inputField_width"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_inputField"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_search_text" />
+
+</RelativeLayout>
